@@ -957,6 +957,7 @@ Completed 200 OK in 11ms (Views: 2.5ms | ActiveRecord: 0.1ms)
 Started GET "/school_classes/new" for 127.0.0.1 at 2017-10-24 03:37:31 +0000
 Processing by SchoolClassesController#new as HTML
   Rendered school_classes/new.html.erb within layouts/application (16.2ms)
+<<<<<<< HEAD
 Completed 200 OK in 170ms (Views: 156.0ms | ActiveRecord: 0.3ms)
 Started POST "/school_classes" for 127.0.0.1 at 2017-10-24 03:37:31 +0000
 Processing by SchoolClassesController#create as HTML
@@ -973,3 +974,5 @@ Processing by SchoolClassesController#show as HTML
   Rendered school_classes/show.html.erb within layouts/application (0.4ms)
 Completed 200 OK in 18ms (Views: 5.5ms | ActiveRecord: 0.2ms)
   [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+=======
+>>>>>>> 7b5c87513684c954eca3f48527238191495c929a
